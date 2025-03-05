@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Portafolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sección de Encabezado / Hero -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p class="lead">Soy [Tu Nombre], un desarrollador creativo.</p>
+      </div>
+    </header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="img/tu-foto.jpg" class="rounded-circle img-fluid" alt="Foto de [Tu Nombre]">
+          </div>
+          <div class="col-md-8">
+            <h2>Sobre Mí</h2>
+            <p>Una breve descripción sobre ti, tus habilidades, experiencia y lo que te apasiona en el desarrollo web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Portafolio -->
+    <section id="portfolio" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Mis Proyectos</h2>
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 1</h5>
+                <p class="card-text">Descripción breve del proyecto 1.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 2</h5>
+                <p class="card-text">Descripción breve del proyecto 2.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 3</h5>
+                <p class="card-text">Descripción breve del proyecto 3.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript personalizado -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
