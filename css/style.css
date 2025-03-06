@@ -1,0 +1,18 @@
+/* css/style.css */
+
+/* Fuente principal */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Ajuste del header (opcional: si deseas un fondo personalizado) */
+  header {
+    background: url('../img/hero.jpg') center/cover no-repeat;
+  }
+  
+  /* Espaciado adicional en secciones */
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
